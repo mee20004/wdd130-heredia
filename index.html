@@ -4,53 +4,69 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>The Transformers</title>
-  <!-- CSS can be added later using <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
+
 <body>
 
-  <h1>The Transformers</h1>
+  <header class="site-header">
+    <div class="header-top">
+      <img src="images/Logo.jpg" alt="Transformers Logo" class="logo">
+    </div>
+    <h1 class="title">The Transformers</h1>
 
-  <p>
-    Long before arriving on Earth, the Transformers were created on the metallic world of Cybertron.
-    From Primus came the Thirteen Primes, whose leadership shaped early Cybertronian society.
-    Over time, differences in ideology caused two factions to form: the heroic Autobots and the
-    power-driven Decepticons. These tensions ultimately ignited the Cybertronian War.
-  </p>
+    <nav class="nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="autobots.html" class="nav-link">Autobots</a>
+      <a href="decepticons.html" class="nav-link">Decepticons</a>
+    </nav>
+  </header>
 
-  <h2>Images</h2>
-  <!-- Thirteen Primes -->
-  <h3>The Thirteen Primes</h3>
-  <img src="images/prime1.jpg" alt="Prime 1">
-  <img src="images/prime2.jpg" alt="Prime 2">
-  <img src="images/prime3.jpg" alt="Prime 3">
-  <img src="images/prime4.jpg" alt="Prime 4">
-  <img src="images/prime5.jpg" alt="Prime 5">
-  <img src="images/prime6.jpg" alt="Prime 6">
-  <img src="images/prime7.jpg" alt="Prime 7">
-  <img src="images/prime8.jpg" alt="Prime 8">
-  <img src="images/prime9.jpg" alt="Prime 9">
-  <img src="images/prime10.jpg" alt="Prime 10">
-  <img src="images/prime11.jpg" alt="Prime 11">
-  <img src="images/prime12.jpg" alt="Prime 12">
-  <img src="images/prime13.jpg" alt="Prime 13">
+  <main>
 
-  <!-- Orion Pax -->
-  <h3>Orion Pax</h3>
-  <img src="images/orion-pax.jpg" alt="Orion Pax">
+    <p class="intro">
+      Long before arriving on Earth, the Transformers were created on the metallic world of Cybertron.
+      From Primus came the Thirteen Primes, whose leadership shaped early Cybertronian society.
+      Over time, differences in ideology caused two factions to form: the heroic Autobots and the
+      power-driven Decepticons. These tensions ultimately ignited the Cybertronian War.
+    </p>
 
-  <!-- Megatronus -->
-  <h3>Megatronus</h3>
-  <img src="images/megatronus.jpg" alt="Megatronus">
+    <section class="images-section">
+      <h2>Images</h2>
+      <div class="images-divider"></div>
 
-  <!-- Cybertronian War -->
-  <h3>Beginning of the Cybertronian War</h3>
-  <img src="images/cybertron-war.jpg" alt="Beginning of the Cybertronian War">
+      <h3>The Thirteen Primes</h3>
+      <div class="mini-divider"></div>
+      <img src="images/13Primes.jpeg" alt="Prime 1" class="image">
 
-  <h2>Which side would you like to learn more about?</h2>
-  <p>
-    <a href="autobots.html">Autobots</a><br>
-    <a href="decepticons.html">Decepticons</a>
-  </p>
+      <h3>Orion Pax</h3>
+      <div class="mini-divider"></div>
+      <img src="images/OrionPax.webp" alt="Orion Pax" class="image">
+
+      <h3>Megatronus</h3>
+      <div class="mini-divider"></div>
+      <img src="images/Megatronus.jpeg" alt="Megatronus" class="image">
+
+      <h3>Beginning of the Cybertronian War</h3>
+      <div class="mini-divider"></div>
+      <img src="images/GreatWar.webp" alt="Beginning of the Cybertronian War" class="image">
+    </section>
+
+    <h2 class="faction-header">Which side would you like to learn more about?</h2>
+
+    <section class="faction-cta">
+      <figure class="faction-card">
+        <img src="images/Autobots.png" alt="Autobots" class="faction-image">
+        <figcaption>Autobots</figcaption>
+      </figure>
+
+      <figure class="faction-card">
+        <img src="images/Decepticons.png" alt="Decepticons" class="faction-image">
+        <figcaption>Decepticons</figcaption>
+      </figure>
+    </section>
+
+  </main>
 
 </body>
 </html>
